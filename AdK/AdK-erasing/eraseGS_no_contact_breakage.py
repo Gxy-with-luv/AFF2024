@@ -46,7 +46,7 @@ hif = frustbox[:, 0]
 lof = frustbox[:, -1]
 
 
-contacts = np.load('AAcontact.npy')
+contacts = np.load('num_contact.npy')
 msafile = 'original50.a3m'
 contact0 = [i for i in range(214) if contacts[i] == 0]
 for ratio in [0.5]:
