@@ -1,0 +1,11 @@
+Read Me
+
+Hi, Xingyue here.
+
+This folder contains the results for mixing the MSA information corresponding to closed and open states of AdK to pave the conformational changing pathway in between.
+
+Files contain:
+
+1. Closed MSA Hints with low d_E_{HF} values (size 500) vs. Open MSA Hints with high d_E_{HF} values (size 50) --> Mixing50, w: 0.01~0.4; (since size 500 is a large values, w=0.4 is already big enough to see fully closed structures.)
+
+2. Closed MSA Hints with low d_E_{HF} values (size 500) vs. Open MSA Hints with high d_E_{HF} values (size 100) --> Mixing100, w: 0.01~0.09; (since size 500 is a large values, plus adding the MSA set size would bias the closed state, w=0.09 is already big enough to see fully closed structures.)
