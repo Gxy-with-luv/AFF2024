@@ -1,18 +1,38 @@
 # AFF2024
 
+```python
+#   █████╗ ███████╗███████╗██████╗  ██████╗ ██████╗ ██╗  ██╗
+#  ██╔══██╗██╔════╝██╔════╝╚════██╗██╔═████╗╚════██╗██║  ██║
+#  ███████║█████╗  █████╗   █████╔╝██║██╔██║ █████╔╝███████║
+#  ██╔══██║██╔══╝  ██╔══╝  ██╔═══╝ ████╔╝██║██╔═══╝ ╚════██║
+#  ██║  ██║██║     ██║     ███████╗╚██████╔╝███████╗     ██║
+#  ╚═╝  ╚═╝╚═╝     ╚═╝     ╚══════╝ ╚═════╝ ╚══════╝     ╚═╝
+#
+#  ┏┓┓  ┓   ┏┓  ┓ ┓┏┓  ╻  ┏┓           •
+#  ┣┫┃┏┓┣┓┏┓┣ ┏┓┃┏┫┏┛ ━╋━ ┣ ┏┓┓┏┏╋┏┓┏┓╋┓┏┓┏┓
+#  ┛┗┗┣┛┛┗┗┻┻ ┗┛┗┗┻┗━  ╹  ┻ ┛ ┗┛┛┗┛ ┗┻┗┗┗┛┛┗
+#     ┛
+#       Predicting protein conformational motions
+#  using energetic frustration analysis and AlphaFold2
+```
+
+
+
 ## Introduction
 
 This Github repository is for our work: *Predicting protein conformational motions using energetic frustration analysis and AlphaFold2*
 
 We have prepared folders containing the scripts and data in this work. The structures and descriptions are listed as following.
 
-We also provide a notebook for a quick walkthrough: !!!TODO!!!, with this one can get a frustration-energy landscape mapped from the MSA space using physically-based frustration information for AdK (with closed conformation as the native state) and then generate the alternative open state using High $\Delta E_{HF}$ region, masking and mixing methods.
+## Walkthrough
+
+We also provide a notebook for a quick walkthrough: `Walkthrough.ipynb`[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Gxy-with-luv/AFF2024/blob/main/Walkthrough.ipynb), with this one can get a frustration-energy landscape mapped from the MSA space using physically-based frustration information for AdK (with closed conformation as the native state) and then generate the alternative open state using High $\Delta E_{HF}$ region, masking and mixing methods.
 
 ## Folder structures and descriptions 
 
 ### Core prediction part:
 
-Using Colab is a convenient way to install and load AF2-related modules without the burden of configurations for enviroment. We provide a notebook: `Main_Prediction.ipynb` to load and use AlphaFold2, to predict structures from the MSA hints given by ourselves.
+Using Colab is a convenient way to install and load AF2-related modules without the burden of configurations for environment. We provide a notebook: `Main_Prediction.ipynb` to load and use AlphaFold2, to predict structures from the MSA hints given by ourselves.
 
 ### AdK Folder:
 
@@ -66,4 +86,6 @@ Rosetta_AdK
 ├── *.py # Scripts for collecting the energy profiles from Rosetta calculation
 └── *.npy # Output energy profiles
 ```
+
+
 
