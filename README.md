@@ -63,29 +63,3 @@ AdK # Every sub-folder also contain scripts for analysis and output results
 └── SI-AA_simulation # Gromacs setup files and also two output trajectories
 
 ```
-
-###  Rosetta scripts Folder:
-
-```bash
-*Rosetta Folder:*
-
-Rosetta_scripts
-├── Rosetta_AdK
-├── Rosetta_KaiB
-└── Rosetta_RBP
-
-*Under each script folder:*
-
-Rosetta_AdK
-├── native.pdb # Native structure
-├── native.seq # Query sequence
-├── native.xml # Rosetta scripts to calculate the native energy
-├── test.xml # Rosetta scripts to calculate decoy energies
-├── *.sh # Calculation job submission
-├── peps # Containing sequences from the MSA space
-├── *.py # Scripts for collecting the energy profiles from Rosetta calculation
-└── *.npy # Output energy profiles
-```
-
-
-

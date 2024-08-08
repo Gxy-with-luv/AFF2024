@@ -1,9 +1,0 @@
-Read Me
-
-Hi there, this is Xingyue. This folder contains the scripts for treading energy calculation using Rosetta.
-
-If I include all the result .pdb and .log files, the file size for each protein would exceed many giga bytes. These results can be produced running the given scripts.
-
-But if you want the results without running the scripts, contact me via xingyue@smail.nju.edu.cn.
-
-Good luck!
